@@ -28,7 +28,7 @@ function Pagination() {
 				onChange={handleChange}
 				sx={[
 					{
-						'.css-wjh20t-MuiPagination-ul': {
+						'.MuiPagination-ul': {
 							justifyContent: 'center',
 						},
 					},

@@ -28,7 +28,7 @@ function Drawer() {
 			onOpen={() => dispatch(toggleDrawer(true))}
 			sx={[
 				{
-					'.css-1160xiw-MuiPaper-root-MuiDrawer-paper': {
+					'.MuiPaper-root': {
 						width: '490px',
 						backgroundColor: '#121825',
 						color: 'white',
