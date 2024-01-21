@@ -35,7 +35,7 @@ function Chart() {
 					height={351}
 					sx={[
 						{
-							'.MuiChartsAxis-tickLabel': {
+							'.MuiChartsAxis-tickContainer .MuiChartsAxis-tickLabel': {
 								fill: 'white',
 							},
 						},
