@@ -16,7 +16,9 @@ function Drawer() {
 
 	const { users } = useSelector((state: RootState) => state.users)
 
-	const currentUser = users.find(user => user.id === transactions[0].user_id)
+	const currentUser = transactions[0]
+		? users.find(user => user.id === transactions[0].user_id)
+		: null
 
 	return (
 		<SwipeableDrawer
